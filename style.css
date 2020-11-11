@@ -1,0 +1,141 @@
+.tituloCentro {
+    text-align: center;
+    color: #FF8300;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.everyone li a, b {
+    display: block;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 16px;
+}
+.everyone .active {
+    background-color: #FF8300;
+    color: white;
+}
+.everyone li a:hover:not(.active) { /* Change the link color on hover */
+    background-color: #111;
+    color: white;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.barraLateral {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    border: 1px solid #e7e7e7;
+    border-radius: 7px;
+
+    width: 20%;
+    height: 68%; /* Full height */
+    position: absolute; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+.barraLateral li b {
+    text-align: left;
+    border-bottom: 1px solid #B8B8B8;
+    border-top: 1px solid #B8B8B8;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.barraSuperior {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    border: 1px solid #e7e7e7;
+    border-radius: 7px;
+
+    overflow: hidden;
+
+    /* Barra superior "gruda" em cima quando rola a página */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.barraSuperior li {
+    float: right;
+}
+.barraSuperior li a {
+    padding: 16px;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.boxPedidos /*table*/ {
+    margin-left: 22%;
+    font-size: 1.1rem;
+}
+.boxPedidos td {
+    padding: 32px 70px;
+    text-align: center;
+
+    border: 1px solid #e7e7e7;
+    border-radius: 7px;
+    color: white;
+    background-color: #000;
+    opacity: 0.8;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.boxTexto {
+/*    position: absolute;
+    width: 90%;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%,-50%);*/
+
+    position: relative;
+    padding: 1%;
+
+    border: 1px solid #e7e7e7;
+    border-radius: 7px;
+    color: white;
+    background-color: #000;
+    opacity: 0.8;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.boxTexto table {
+    border-collapse: collapse;
+    border: 2px solid #e7e7e7;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+.boxTexto td, th {
+    border: 1px solid #e7e7e7;
+    padding: 10px 20px;
+    /*text-align: center;*/
+    background-color: #E66F00;
+}
+.boxTexto td {
+    /**/
+    text-align: center;
+}
+caption {
+    padding: 10px;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.boxTexto2 {
+    position: absolute;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1%;
+
+    border: 1px solid #e7e7e7;
+    border-radius: 7px;
+    color: white;
+    background-color: #000;
+    opacity: 0.8;
+}
+.boxTexto2 a {
+    color: #FF8300;
+    font-style: italic;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
